@@ -1,13 +1,14 @@
 <?php include("inc/head.php");?>
-	<div id="content" class="container-fluid">
-			<div class="video-header wrap">
-				<div class="fullscreen=video-wrap">	
-					<video src="video/inicio.mp4" autoplay loop></video>
+	<div class="row">
+		<div class="bgvid col-12">
+			<video src="video/inicio.mp4" preload="auto" autoplay="" loop="bucle" muted></video>
+			<div class="row">
+				<div class="caption col-md-6 offset-md-5">
+					<a href="solo-collab.php">
+					<span class="nameClau">Clàudia Del</span>
+					</a>
 				</div>
-				<div class="header-overlay">
-					<div class="header-content">
-					<h1>Clàudia Del</h1>
-				</div>
-			</div>	
+			</div>
+		</div>
 	</div>
 <?php include("inc/footer.php");?>
